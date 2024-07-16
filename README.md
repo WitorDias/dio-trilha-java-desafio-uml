@@ -12,15 +12,15 @@ classDiagram
     }
 
     class AparelhoTelefonico {
-        +ligar();
-	    +atender();
-	    +iniciarCorreioDeVoz();
+        +ligar()
+        +atender()
+        +iniciarCorreioDeVoz()
     }
 
     class NavegadorInternet {
-       +exibirPagina();
-	   +adicionarNovaAba();
-	   +atualizarPagina();
+        +exibirPagina()
+        +adicionarNovaAba()
+        +atualizarPagina()
     }
 
     class iPhone {
@@ -29,4 +29,8 @@ classDiagram
     iPhone --> ReprodutorMusical
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
+
+    class ReprodutorMusical <<interface>>
+    class AparelhoTelefonico <<interface>>
+    class NavegadorInternet <<interface>>
 ```
