@@ -11,7 +11,7 @@ classDiagram
         +tocarMusica()
     }
 
-    class AparelhoTelefonico {
+    class Telefonia {
         +ligar()
         +atender()
         +iniciarCorreioDeVoz()
