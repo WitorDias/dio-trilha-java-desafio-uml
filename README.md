@@ -30,7 +30,12 @@ classDiagram
     iPhone --> AparelhoTelefonico
     iPhone --> NavegadorInternet
 
-    ReprodutorMusical : <<interface>>
-    AparelhoTelefonico : <<interface>>
-    NavegadorInternet : <<interface>>
+class ReprodutorMusical
+<<interface>> ReprodutorMusical
+
+class AparelhoTelefonico
+<<interface>> AparelhoTelefonico
+
+class NavegadorInternet
+<<interface>> NavegadorInternet
 ```
