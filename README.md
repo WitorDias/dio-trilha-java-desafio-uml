@@ -33,8 +33,8 @@ classDiagram
 class ReprodutorMusical
 <<interface>> ReprodutorMusical
 
-class AparelhoTelefonico
-<<interface>> AparelhoTelefonico
+class Telefonia
+<<interface>> Telefonia
 
 class NavegadorInternet
 <<interface>> NavegadorInternet
