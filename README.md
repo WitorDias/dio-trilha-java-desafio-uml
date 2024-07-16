@@ -27,7 +27,7 @@ classDiagram
     }
 
     iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
+    iPhone --> Telefonia
     iPhone --> NavegadorInternet
 
 class ReprodutorMusical
